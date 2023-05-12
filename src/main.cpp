@@ -17,7 +17,7 @@ inline auto getWindowSize() noexcept -> winsize {
   return window;
 }
 
-inline auto oversizeNumber(int num, int row) -> const char* {
+inline auto oversizeNumber(int num, int row) noexcept -> const char* {
   switch(num) {
     case 0:
       return zero[row];
