@@ -5,7 +5,6 @@ O=./obj
 
 OBJ=							\
 			$(O)/main.o	\
-			$(O)/program.o	\
 
 clockwise: $(OBJ)
 	$(CC) $(OBJ) -o $@
